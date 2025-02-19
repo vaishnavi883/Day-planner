@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Basic page styling */
 body {
     font-family: Arial, sans-serif;
@@ -54,3 +55,61 @@ h1 {
 .save-btn:hover {
     background: #218838;
 }
+=======
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+    color: #333;
+}
+
+/* Time slot styling */
+.time-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Input field */
+.task {
+    flex: 1;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+/* Save button */
+.save-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.save-btn:hover {
+    background: #218838;
+}
+>>>>>>> 6cc83db (Initial commit)
